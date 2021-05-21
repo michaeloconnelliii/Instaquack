@@ -18,10 +18,10 @@
 
 <h2>Publisher and Subscriber Tests</h2>
 <ul>
-	<li>input_full_publisher_test.txt - \nsuccessfully pushes all topic entries without dequeuing.</li>
-	<li>pub_dont_give_up_.txt - Successfully continues to push all topic entries before dequeing after 30 seconds (delta = 30)</li>
-	<li>sub_empty_test.txt - Unsuccessfully attempts to get topic entries from an empty queue. Program exits normally.</li>
-	<li>normal_test (directory) - Screenshots from given project input.</li>
+	<li>input_full_publisher_test.txt<br>successfully pushes all topic entries without dequeuing.</li>
+	<li>pub_dont_give_up_.txt<br>Successfully continues to push all topic entries before dequeing after 30 seconds (delta = 30)</li>
+	<li>sub_empty_test.txt<br>Unsuccessfully attempts to get topic entries from an empty queue. Program exits normally.</li>
+	<li>normal_test (directory)<br>Screenshots from given project input.</li>
 </ul>
 
 <h2>Aknowledgements</h2>
