@@ -1,0 +1,16 @@
+sleep 1000
+get 2
+sleep 1000
+get 1
+sleep 3000
+get 2
+sleep 100
+get 2
+sleep 100
+get 1
+sleep 3000
+get 1
+sleep 500
+get 2
+sleep 1000
+stop

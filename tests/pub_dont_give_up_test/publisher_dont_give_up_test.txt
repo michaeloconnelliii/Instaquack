@@ -1,0 +1,4 @@
+create topic 1 "Mountains" 6
+delta 30
+add publisher "pub_dont_give_up.txt"
+start

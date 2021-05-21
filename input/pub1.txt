@@ -1,0 +1,15 @@
+put 1 "https://cdn.britannica.com/67/19367-050-885866B4/Valley-Taurus-Mountains-Turkey.jpg" "Taurus Mountains"
+sleep 1500
+put 1 "https://www.atlasandboots.com/wp-content/uploads/2019/05/feat-image-1-most-beautiful-mountains-in-the-world-820x312.jpg" "Pointy Mountain"
+sleep 1500
+put 1 "https://www.mercurynews.com/wp-content/uploads/2017/10/sjm-l-bachelor-1022-03.jpg?w=620" "Mount Bachelor"
+sleep 1500
+put 2 "https://static.boredpanda.com/blog/wp-content/uploads/2018/07/5b557f4560e45_-2RQLO3QGIV9VGgpwIBSpnDKfh4V50mNGqzt2ghnlfo__700.jpg" "Something is up"
+sleep 1200
+put 1 "https://media-cdn.tripadvisor.com/media/photo-s/15/21/06/71/mount-shasta-2-70a.jpg" "Shasta"
+sleep 110
+put 1 "https://static01.nyt.com/images/2019/09/18/sports/18everest-photo/18everest-photo-articleLarge.jpg?quality=75&auto=webp&disable=upscale" "Everest"
+sleep 150
+put 3 "https://ichef.bbci.co.uk/news/660/cpsprodpb/C271/production/_98677794_gettyimages-486869012.jpg" "A goat"
+stop
+

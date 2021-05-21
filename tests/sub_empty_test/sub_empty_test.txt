@@ -1,0 +1,4 @@
+create topic 1 "Mountains" 6
+add subscriber "sub_empty.txt"
+delta 15
+start

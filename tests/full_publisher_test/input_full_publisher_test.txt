@@ -1,0 +1,8 @@
+create topic 1 "Mountains" 6
+create topic 2 "Funny_dogs" 6
+create topic 3 "goats" 5
+delta 15
+add publisher "pub_full_1.txt"
+add publisher "pub_full_2.txt"
+add publisher "pub_full_3.txt"
+start

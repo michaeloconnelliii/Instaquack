@@ -1,0 +1,311 @@
+==22041== Memcheck, a memory error detector
+==22041== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==22041== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==22041== Command: ./server input.txt
+==22041== 
+Waiting for 5 seconds to ensure all threads are created.
+Sending signal (via pthread_cond_broadcast()) to all threads
+Proxy thread 100976384- type: Cleanup
+
+Proxy thread 109369088- type: Publisher DEBUG - Filename: pub1.txt
+
+Enqueue successful by thread ID: 109369088. URL: https://cdn.britannica.com/67/19367-050-885866B4/Valley-Taurus-Mountains-Turkey.jpg, caption: Taurus Mountains, entry_num: 1 time stamp: 1607237579
+
+Queue info: name: Mountains, head: 1, tail: 0, max_entry: 6, entry_cnt: 1
+
+Proxy thread 117761792- type: Publisher DEBUG - Filename: pub2.txt
+
+Enqueue successful by thread ID: 117761792. URL: https://static.boredpanda.com/blog/wp-content/uploads/2018/07/funny-dog-balloons-ceiling-6-5b5580e05c9ef__700.jpg, caption: I tired, entry_num: 1 time stamp: 1607237580
+
+Queue info: name: Funny_dogs, head: 1, tail: 0, max_entry: 6, entry_cnt: 1
+
+Proxy thread 126154496- type: Publisher DEBUG - Filename: pub3.txt
+
+Enqueue successful by thread ID: 126154496. URL: https://cdn.pixabay.com/photo/2018/03/07/19/51/animal-3206941_960_720.jpg, caption: friends of a goat, entry_num: 1 time stamp: 1607237580
+
+Queue info: name: goats, head: 1, tail: 0, max_entry: 5, entry_cnt: 1
+
+Proxy thread 134547200- type: Subscriber DEBUG - Filename: sub1.txt
+
+Proxy thread 142939904- type: Subscriber DEBUG - Filename: sub2.txt
+
+Proxy thread 151332608- type: Subscriber DEBUG - Filename: sub3.txt
+
+get_entry() successful: 134547200, entry num: 1, caption: Taurus Mountains, url: https://cdn.britannica.com/67/19367-050-885866B4/Valley-Taurus-Mountains-Turkey.jpg, pubID: 1, timestamp: 1607237579
+
+get_entry() successful: 134547200, entry num: 1, caption: Taurus Mountains, url: https://cdn.britannica.com/67/19367-050-885866B4/Valley-Taurus-Mountains-Turkey.jpg, pubID: 1, timestamp: 1607237579
+
+get_entry() successful: 134547200, entry num: 1, caption: Taurus Mountains, url: https://cdn.britannica.com/67/19367-050-885866B4/Valley-Taurus-Mountains-Turkey.jpg, pubID: 1, timestamp: 1607237579
+
+Enqueue successful by thread ID: 117761792. URL: https://static.boredpanda.com/blog/wp-content/uploads/2018/07/912262374756937728-1-png__700.jpg, caption: I'm in heaven, entry_num: 2 time stamp: 1607237581
+
+Queue info: name: Funny_dogs, head: 2, tail: 0, max_entry: 6, entry_cnt: 2
+
+get_entry() successful: 142939904, entry num: 1, caption: I tired, url: https://static.boredpanda.com/blog/wp-content/uploads/2018/07/funny-dog-balloons-ceiling-6-5b5580e05c9ef__700.jpg, pubID: 2, timestamp: 1607237580
+
+get_entry() successful: 142939904, entry num: 2, caption: I'm in heaven, url: https://static.boredpanda.com/blog/wp-content/uploads/2018/07/912262374756937728-1-png__700.jpg, pubID: 2, timestamp: 1607237581
+
+Enqueue successful by thread ID: 117761792. URL: https://86cb8127dc14737f5057-7c0671222953158607ea93d5febd68b4.ssl.cf1.rackcdn.com/747/assets/responsive/350000/350899/dog.jpg, caption: Good dog, entry_num: 3 time stamp: 1607237581
+
+Queue info: name: Funny_dogs, head: 3, tail: 0, max_entry: 6, entry_cnt: 3
+
+get_entry() successful: 134547200, entry num: 1, caption: Taurus Mountains, url: https://cdn.britannica.com/67/19367-050-885866B4/Valley-Taurus-Mountains-Turkey.jpg, pubID: 1, timestamp: 1607237579
+
+Enqueue successful by thread ID: 109369088. URL: https://www.atlasandboots.com/wp-content/uploads/2019/05/feat-image-1-most-beautiful-mountains-in-the-world-820x312.jpg, caption: Pointy Mountain, entry_num: 2 time stamp: 1607237581
+
+Queue info: name: Mountains, head: 2, tail: 0, max_entry: 6, entry_cnt: 2
+
+get_entry() successful: 134547200, entry num: 1, caption: Taurus Mountains, url: https://cdn.britannica.com/67/19367-050-885866B4/Valley-Taurus-Mountains-Turkey.jpg, pubID: 1, timestamp: 1607237579
+
+get_entry() successful: 134547200, entry num: 2, caption: Pointy Mountain, url: https://www.atlasandboots.com/wp-content/uploads/2019/05/feat-image-1-most-beautiful-mountains-in-the-world-820x312.jpg, pubID: 1, timestamp: 1607237581
+
+get_entry() successful: 134547200, entry num: 1, caption: I tired, url: https://static.boredpanda.com/blog/wp-content/uploads/2018/07/funny-dog-balloons-ceiling-6-5b5580e05c9ef__700.jpg, pubID: 2, timestamp: 1607237580
+
+get_entry() successful: 134547200, entry num: 2, caption: I'm in heaven, url: https://static.boredpanda.com/blog/wp-content/uploads/2018/07/912262374756937728-1-png__700.jpg, pubID: 2, timestamp: 1607237581
+
+get_entry() successful: 134547200, entry num: 3, caption: Good dog, url: https://86cb8127dc14737f5057-7c0671222953158607ea93d5febd68b4.ssl.cf1.rackcdn.com/747/assets/responsive/350000/350899/dog.jpg, pubID: 2, timestamp: 1607237581
+
+get_entry() successful: 142939904, entry num: 1, caption: I tired, url: https://static.boredpanda.com/blog/wp-content/uploads/2018/07/funny-dog-balloons-ceiling-6-5b5580e05c9ef__700.jpg, pubID: 2, timestamp: 1607237580
+
+get_entry() successful: 142939904, entry num: 2, caption: I'm in heaven, url: https://static.boredpanda.com/blog/wp-content/uploads/2018/07/912262374756937728-1-png__700.jpg, pubID: 2, timestamp: 1607237581
+
+get_entry() successful: 142939904, entry num: 3, caption: Good dog, url: https://86cb8127dc14737f5057-7c0671222953158607ea93d5febd68b4.ssl.cf1.rackcdn.com/747/assets/responsive/350000/350899/dog.jpg, pubID: 2, timestamp: 1607237581
+
+get_entry() successful: 134547200, entry num: 1, caption: Taurus Mountains, url: https://cdn.britannica.com/67/19367-050-885866B4/Valley-Taurus-Mountains-Turkey.jpg, pubID: 1, timestamp: 1607237579
+
+get_entry() successful: 134547200, entry num: 2, caption: Pointy Mountain, url: https://www.atlasandboots.com/wp-content/uploads/2019/05/feat-image-1-most-beautiful-mountains-in-the-world-820x312.jpg, pubID: 1, timestamp: 1607237581
+
+get_entry() successful: 134547200, entry num: 1, caption: Taurus Mountains, url: https://cdn.britannica.com/67/19367-050-885866B4/Valley-Taurus-Mountains-Turkey.jpg, pubID: 1, timestamp: 1607237579
+
+get_entry() successful: 134547200, entry num: 2, caption: Pointy Mountain, url: https://www.atlasandboots.com/wp-content/uploads/2019/05/feat-image-1-most-beautiful-mountains-in-the-world-820x312.jpg, pubID: 1, timestamp: 1607237581
+
+Subscriber thread: 134547200 is exiting...
+
+get_entry() successful: 151332608, entry num: 1, caption: friends of a goat, url: https://cdn.pixabay.com/photo/2018/03/07/19/51/animal-3206941_960_720.jpg, pubID: 3, timestamp: 1607237580
+
+Enqueue successful by thread ID: 109369088. URL: https://www.mercurynews.com/wp-content/uploads/2017/10/sjm-l-bachelor-1022-03.jpg?w=620, caption: Mount Bachelor, entry_num: 3 time stamp: 1607237583
+
+Queue info: name: Mountains, head: 3, tail: 0, max_entry: 6, entry_cnt: 3
+
+Enqueue successful by thread ID: 109369088. URL: https://static.boredpanda.com/blog/wp-content/uploads/2018/07/5b557f4560e45_-2RQLO3QGIV9VGgpwIBSpnDKfh4V50mNGqzt2ghnlfo__700.jpg, caption: Something is up, entry_num: 4 time stamp: 1607237584
+
+Queue info: name: Funny_dogs, head: 4, tail: 0, max_entry: 6, entry_cnt: 4
+
+get_entry() successful: 142939904, entry num: 1, caption: I tired, url: https://static.boredpanda.com/blog/wp-content/uploads/2018/07/funny-dog-balloons-ceiling-6-5b5580e05c9ef__700.jpg, pubID: 2, timestamp: 1607237580
+
+get_entry() successful: 142939904, entry num: 2, caption: I'm in heaven, url: https://static.boredpanda.com/blog/wp-content/uploads/2018/07/912262374756937728-1-png__700.jpg, pubID: 2, timestamp: 1607237581
+
+get_entry() successful: 142939904, entry num: 3, caption: Good dog, url: https://86cb8127dc14737f5057-7c0671222953158607ea93d5febd68b4.ssl.cf1.rackcdn.com/747/assets/responsive/350000/350899/dog.jpg, pubID: 2, timestamp: 1607237581
+
+get_entry() successful: 142939904, entry num: 4, caption: Something is up, url: https://static.boredpanda.com/blog/wp-content/uploads/2018/07/5b557f4560e45_-2RQLO3QGIV9VGgpwIBSpnDKfh4V50mNGqzt2ghnlfo__700.jpg, pubID: 2, timestamp: 1607237584
+
+get_entry() successful: 142939904, entry num: 1, caption: I tired, url: https://static.boredpanda.com/blog/wp-content/uploads/2018/07/funny-dog-balloons-ceiling-6-5b5580e05c9ef__700.jpg, pubID: 2, timestamp: 1607237580
+
+get_entry() successful: 142939904, entry num: 2, caption: I'm in heaven, url: https://static.boredpanda.com/blog/wp-content/uploads/2018/07/912262374756937728-1-png__700.jpg, pubID: 2, timestamp: 1607237581
+
+get_entry() successful: 142939904, entry num: 3, caption: Good dog, url: https://86cb8127dc14737f5057-7c0671222953158607ea93d5febd68b4.ssl.cf1.rackcdn.com/747/assets/responsive/350000/350899/dog.jpg, pubID: 2, timestamp: 1607237581
+
+get_entry() successful: 142939904, entry num: 4, caption: Something is up, url: https://static.boredpanda.com/blog/wp-content/uploads/2018/07/5b557f4560e45_-2RQLO3QGIV9VGgpwIBSpnDKfh4V50mNGqzt2ghnlfo__700.jpg, pubID: 2, timestamp: 1607237584
+
+get_entry() successful: 142939904, entry num: 1, caption: I tired, url: https://static.boredpanda.com/blog/wp-content/uploads/2018/07/funny-dog-balloons-ceiling-6-5b5580e05c9ef__700.jpg, pubID: 2, timestamp: 1607237580
+
+get_entry() successful: 142939904, entry num: 2, caption: I'm in heaven, url: https://static.boredpanda.com/blog/wp-content/uploads/2018/07/912262374756937728-1-png__700.jpg, pubID: 2, timestamp: 1607237581
+
+get_entry() successful: 142939904, entry num: 3, caption: Good dog, url: https://86cb8127dc14737f5057-7c0671222953158607ea93d5febd68b4.ssl.cf1.rackcdn.com/747/assets/responsive/350000/350899/dog.jpg, pubID: 2, timestamp: 1607237581
+
+get_entry() successful: 142939904, entry num: 4, caption: Something is up, url: https://static.boredpanda.com/blog/wp-content/uploads/2018/07/5b557f4560e45_-2RQLO3QGIV9VGgpwIBSpnDKfh4V50mNGqzt2ghnlfo__700.jpg, pubID: 2, timestamp: 1607237584
+
+Enqueue successful by thread ID: 109369088. URL: https://media-cdn.tripadvisor.com/media/photo-s/15/21/06/71/mount-shasta-2-70a.jpg, caption: Shasta, entry_num: 4 time stamp: 1607237585
+
+Queue info: name: Mountains, head: 4, tail: 0, max_entry: 6, entry_cnt: 4
+
+Enqueue successful by thread ID: 109369088. URL: https://static01.nyt.com/images/2019/09/18/sports/18everest-photo/18everest-photo-articleLarge.jpg?quality=75&auto=webp&disable=upscale, caption: Everest, entry_num: 5 time stamp: 1607237585
+
+Queue info: name: Mountains, head: 5, tail: 0, max_entry: 6, entry_cnt: 5
+
+Enqueue successful by thread ID: 109369088. URL: https://ichef.bbci.co.uk/news/660/cpsprodpb/C271/production/_98677794_gettyimages-486869012.jpg, caption: A goat, entry_num: 2 time stamp: 1607237585
+
+Queue info: name: goats, head: 2, tail: 0, max_entry: 5, entry_cnt: 2
+
+Publisher thread: 109369088 is exiting...
+
+Enqueue successful by thread ID: 117761792. URL: https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2019/10/931/524/mount_fuji_istock.jpg?ve=1&tl=1, caption: Mount Fuji, entry_num: 6 time stamp: 1607237586
+
+Queue info: name: Mountains, head: 0, tail: 0, max_entry: 6, entry_cnt: 6
+
+Publisher is pushing: Queue: Mountains - Error Queue is full. Thread ID: 117761792
+Publisher is pushing: Queue: Mountains - Error Queue is full. Thread ID: 117761792
+get_entry() successful: 151332608, entry num: 1, caption: friends of a goat, url: https://cdn.pixabay.com/photo/2018/03/07/19/51/animal-3206941_960_720.jpg, pubID: 3, timestamp: 1607237580
+
+get_entry() successful: 151332608, entry num: 2, caption: A goat, url: https://ichef.bbci.co.uk/news/660/cpsprodpb/C271/production/_98677794_gettyimages-486869012.jpg, pubID: 3, timestamp: 1607237585
+
+get_entry() successful: 142939904, entry num: 1, caption: friends of a goat, url: https://cdn.pixabay.com/photo/2018/03/07/19/51/animal-3206941_960_720.jpg, pubID: 3, timestamp: 1607237580
+
+get_entry() successful: 142939904, entry num: 2, caption: A goat, url: https://ichef.bbci.co.uk/news/660/cpsprodpb/C271/production/_98677794_gettyimages-486869012.jpg, pubID: 3, timestamp: 1607237585
+
+get_entry() successful: 151332608, entry num: 1, caption: friends of a goat, url: https://cdn.pixabay.com/photo/2018/03/07/19/51/animal-3206941_960_720.jpg, pubID: 3, timestamp: 1607237580
+
+get_entry() successful: 151332608, entry num: 2, caption: A goat, url: https://ichef.bbci.co.uk/news/660/cpsprodpb/C271/production/_98677794_gettyimages-486869012.jpg, pubID: 3, timestamp: 1607237585
+
+get_entry() successful: 142939904, entry num: 1, caption: friends of a goat, url: https://cdn.pixabay.com/photo/2018/03/07/19/51/animal-3206941_960_720.jpg, pubID: 3, timestamp: 1607237580
+
+get_entry() successful: 142939904, entry num: 2, caption: A goat, url: https://ichef.bbci.co.uk/news/660/cpsprodpb/C271/production/_98677794_gettyimages-486869012.jpg, pubID: 3, timestamp: 1607237585
+
+Subscriber thread: 142939904 is exiting...
+
+Enqueue successful by thread ID: 126154496. URL: https://cdn.pixabay.com/photo/2018/05/02/09/36/animal-3368102_960_720.jpg, caption: baby_goats, entry_num: 3 time stamp: 1607237590
+
+Queue info: name: goats, head: 3, tail: 0, max_entry: 5, entry_cnt: 3
+
+Publisher is pushing: Queue: Mountains - Error Queue is full. Thread ID: 117761792
+Enqueue successful by thread ID: 126154496. URL: https://cdn.pixabay.com/photo/2017/03/26/10/33/stone-goat-2175189_960_720.jpg, caption: Some goats, entry_num: 4 time stamp: 1607237592
+
+Queue info: name: goats, head: 4, tail: 0, max_entry: 5, entry_cnt: 4
+
+get_entry() successful: 151332608, entry num: 1, caption: friends of a goat, url: https://cdn.pixabay.com/photo/2018/03/07/19/51/animal-3206941_960_720.jpg, pubID: 3, timestamp: 1607237580
+
+get_entry() successful: 151332608, entry num: 2, caption: A goat, url: https://ichef.bbci.co.uk/news/660/cpsprodpb/C271/production/_98677794_gettyimages-486869012.jpg, pubID: 3, timestamp: 1607237585
+
+get_entry() successful: 151332608, entry num: 3, caption: baby_goats, url: https://cdn.pixabay.com/photo/2018/05/02/09/36/animal-3368102_960_720.jpg, pubID: 3, timestamp: 1607237590
+
+get_entry() successful: 151332608, entry num: 4, caption: Some goats, url: https://cdn.pixabay.com/photo/2017/03/26/10/33/stone-goat-2175189_960_720.jpg, pubID: 3, timestamp: 1607237592
+
+Publisher thread: 126154496 is exiting...
+
+get_entry() successful: 151332608, entry num: 1, caption: friends of a goat, url: https://cdn.pixabay.com/photo/2018/03/07/19/51/animal-3206941_960_720.jpg, pubID: 3, timestamp: 1607237580
+
+get_entry() successful: 151332608, entry num: 2, caption: A goat, url: https://ichef.bbci.co.uk/news/660/cpsprodpb/C271/production/_98677794_gettyimages-486869012.jpg, pubID: 3, timestamp: 1607237585
+
+get_entry() successful: 151332608, entry num: 3, caption: baby_goats, url: https://cdn.pixabay.com/photo/2018/05/02/09/36/animal-3368102_960_720.jpg, pubID: 3, timestamp: 1607237590
+
+get_entry() successful: 151332608, entry num: 4, caption: Some goats, url: https://cdn.pixabay.com/photo/2017/03/26/10/33/stone-goat-2175189_960_720.jpg, pubID: 3, timestamp: 1607237592
+
+dequeue() successful by thread id: 100976384 Age: 16, Entry num: 1, time_stamp: 1607237579, pub_id: 1, photo url: https://cdn.britannica.com/67/19367-050-885866B4/Valley-Taurus-Mountains-Turkey.jpg, photo caption: Taurus Mountains
+
+Queue information. Name: Mountains, head: 0, tail: 1, max entry: 6, entry count: 5
+
+dequeue() successful by thread id: 100976384 Age: 15, Entry num: 1, time_stamp: 1607237580, pub_id: 2, photo url: https://static.boredpanda.com/blog/wp-content/uploads/2018/07/funny-dog-balloons-ceiling-6-5b5580e05c9ef__700.jpg, photo caption: I tired
+
+Queue information. Name: Funny_dogs, head: 4, tail: 1, max entry: 6, entry count: 3
+
+dequeue() successful by thread id: 100976384 Age: 15, Entry num: 1, time_stamp: 1607237580, pub_id: 3, photo url: https://cdn.pixabay.com/photo/2018/03/07/19/51/animal-3206941_960_720.jpg, photo caption: friends of a goat
+
+Queue information. Name: goats, head: 4, tail: 1, max entry: 5, entry count: 3
+
+Enqueue successful by thread ID: 117761792. URL: https://www.yosemite.com/wp-content/uploads/2016/04/El-Capitan-_Yosemite-Mariposa-Slide_-Photo-by-Chris-Migeon-700x425.jpg, caption: El Cap, entry_num: 7 time stamp: 1607237595
+
+Queue info: name: Mountains, head: 1, tail: 1, max_entry: 6, entry_cnt: 6
+
+get_entry() successful: 151332608, entry num: 2, caption: A goat, url: https://ichef.bbci.co.uk/news/660/cpsprodpb/C271/production/_98677794_gettyimages-486869012.jpg, pubID: 3, timestamp: 1607237585
+
+get_entry() successful: 151332608, entry num: 3, caption: baby_goats, url: https://cdn.pixabay.com/photo/2018/05/02/09/36/animal-3368102_960_720.jpg, pubID: 3, timestamp: 1607237590
+
+get_entry() successful: 151332608, entry num: 4, caption: Some goats, url: https://cdn.pixabay.com/photo/2017/03/26/10/33/stone-goat-2175189_960_720.jpg, pubID: 3, timestamp: 1607237592
+
+get_entry() successful: 151332608, entry num: 2, caption: A goat, url: https://ichef.bbci.co.uk/news/660/cpsprodpb/C271/production/_98677794_gettyimages-486869012.jpg, pubID: 3, timestamp: 1607237585
+
+get_entry() successful: 151332608, entry num: 3, caption: baby_goats, url: https://cdn.pixabay.com/photo/2018/05/02/09/36/animal-3368102_960_720.jpg, pubID: 3, timestamp: 1607237590
+
+get_entry() successful: 151332608, entry num: 4, caption: Some goats, url: https://cdn.pixabay.com/photo/2017/03/26/10/33/stone-goat-2175189_960_720.jpg, pubID: 3, timestamp: 1607237592
+
+Publisher thread: 117761792 is exiting...
+
+get_entry() successful: 151332608, entry num: 7, caption: El Cap, url: https://www.yosemite.com/wp-content/uploads/2016/04/El-Capitan-_Yosemite-Mariposa-Slide_-Photo-by-Chris-Migeon-700x425.jpg, pubID: 1, timestamp: 1607237595
+
+get_entry() successful: 151332608, entry num: 7, caption: El Cap, url: https://www.yosemite.com/wp-content/uploads/2016/04/El-Capitan-_Yosemite-Mariposa-Slide_-Photo-by-Chris-Migeon-700x425.jpg, pubID: 1, timestamp: 1607237595
+
+get_entry() successful: 151332608, entry num: 2, caption: I'm in heaven, url: https://static.boredpanda.com/blog/wp-content/uploads/2018/07/912262374756937728-1-png__700.jpg, pubID: 2, timestamp: 1607237581
+
+get_entry() successful: 151332608, entry num: 3, caption: Good dog, url: https://86cb8127dc14737f5057-7c0671222953158607ea93d5febd68b4.ssl.cf1.rackcdn.com/747/assets/responsive/350000/350899/dog.jpg, pubID: 2, timestamp: 1607237581
+
+get_entry() successful: 151332608, entry num: 4, caption: Something is up, url: https://static.boredpanda.com/blog/wp-content/uploads/2018/07/5b557f4560e45_-2RQLO3QGIV9VGgpwIBSpnDKfh4V50mNGqzt2ghnlfo__700.jpg, pubID: 2, timestamp: 1607237584
+
+dequeue() successful by thread id: 100976384 Age: 15, Entry num: 2, time_stamp: 1607237581, pub_id: 1, photo url: https://www.atlasandboots.com/wp-content/uploads/2019/05/feat-image-1-most-beautiful-mountains-in-the-world-820x312.jpg, photo caption: Pointy Mountain
+
+Queue information. Name: Mountains, head: 1, tail: 2, max entry: 6, entry count: 5
+
+dequeue() successful by thread id: 100976384 Age: 29, Entry num: 3, time_stamp: 1607237583, pub_id: 1, photo url: https://www.mercurynews.com/wp-content/uploads/2017/10/sjm-l-bachelor-1022-03.jpg?w=620, photo caption: Mount Bachelor
+
+Queue information. Name: Mountains, head: 1, tail: 3, max entry: 6, entry count: 4
+
+dequeue() successful by thread id: 100976384 Age: 27, Entry num: 4, time_stamp: 1607237585, pub_id: 1, photo url: https://media-cdn.tripadvisor.com/media/photo-s/15/21/06/71/mount-shasta-2-70a.jpg, photo caption: Shasta
+
+Queue information. Name: Mountains, head: 1, tail: 4, max entry: 6, entry count: 3
+
+dequeue() successful by thread id: 100976384 Age: 25, Entry num: 5, time_stamp: 1607237585, pub_id: 1, photo url: https://static01.nyt.com/images/2019/09/18/sports/18everest-photo/18everest-photo-articleLarge.jpg?quality=75&auto=webp&disable=upscale, photo caption: Everest
+
+Queue information. Name: Mountains, head: 1, tail: 5, max entry: 6, entry count: 2
+
+dequeue() successful by thread id: 100976384 Age: 25, Entry num: 6, time_stamp: 1607237586, pub_id: 1, photo url: https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2019/10/931/524/mount_fuji_istock.jpg?ve=1&tl=1, photo caption: Mount Fuji
+
+Queue information. Name: Mountains, head: 1, tail: 0, max entry: 6, entry count: 1
+
+dequeue() successful by thread id: 100976384 Age: 24, Entry num: 7, time_stamp: 1607237595, pub_id: 1, photo url: https://www.yosemite.com/wp-content/uploads/2016/04/El-Capitan-_Yosemite-Mariposa-Slide_-Photo-by-Chris-Migeon-700x425.jpg, photo caption: El Cap
+
+Queue information. Name: Mountains, head: 1, tail: 1, max entry: 6, entry count: 0
+
+dequeue() successful by thread id: 100976384 Age: 29, Entry num: 2, time_stamp: 1607237581, pub_id: 2, photo url: https://static.boredpanda.com/blog/wp-content/uploads/2018/07/912262374756937728-1-png__700.jpg, photo caption: I'm in heaven
+
+Queue information. Name: Funny_dogs, head: 4, tail: 2, max entry: 6, entry count: 2
+
+dequeue() successful by thread id: 100976384 Age: 29, Entry num: 3, time_stamp: 1607237581, pub_id: 2, photo url: https://86cb8127dc14737f5057-7c0671222953158607ea93d5febd68b4.ssl.cf1.rackcdn.com/747/assets/responsive/350000/350899/dog.jpg, photo caption: Good dog
+
+Queue information. Name: Funny_dogs, head: 4, tail: 3, max entry: 6, entry count: 1
+
+dequeue() successful by thread id: 100976384 Age: 26, Entry num: 4, time_stamp: 1607237584, pub_id: 2, photo url: https://static.boredpanda.com/blog/wp-content/uploads/2018/07/5b557f4560e45_-2RQLO3QGIV9VGgpwIBSpnDKfh4V50mNGqzt2ghnlfo__700.jpg, photo caption: Something is up
+
+Queue information. Name: Funny_dogs, head: 4, tail: 4, max entry: 6, entry count: 0
+
+dequeue() successful by thread id: 100976384 Age: 25, Entry num: 2, time_stamp: 1607237585, pub_id: 3, photo url: https://ichef.bbci.co.uk/news/660/cpsprodpb/C271/production/_98677794_gettyimages-486869012.jpg, photo caption: A goat
+
+Queue information. Name: goats, head: 4, tail: 2, max entry: 5, entry count: 2
+
+dequeue() successful by thread id: 100976384 Age: 20, Entry num: 3, time_stamp: 1607237590, pub_id: 3, photo url: https://cdn.pixabay.com/photo/2018/05/02/09/36/animal-3368102_960_720.jpg, photo caption: baby_goats
+
+Queue information. Name: goats, head: 4, tail: 3, max entry: 5, entry count: 1
+
+dequeue() successful by thread id: 100976384 Age: 18, Entry num: 4, time_stamp: 1607237592, pub_id: 3, photo url: https://cdn.pixabay.com/photo/2017/03/26/10/33/stone-goat-2175189_960_720.jpg, photo caption: Some goats
+
+Queue information. Name: goats, head: 4, tail: 4, max entry: 5, entry count: 0
+
+Get entry(): Topic queue is empty.
+Get entry(): Topic queue is empty.
+Get entry(): Topic queue is empty.
+Get entry(): Topic queue is empty.
+Get entry(): Topic queue is empty.
+Get entry(): Topic queue is empty.
+Get entry(): Topic queue is empty.
+Get entry(): Topic queue is empty.
+Get entry(): Topic queue is empty.
+Get entry(): Topic queue is empty.
+Get entry(): Topic queue is empty.
+Get entry(): Topic queue is empty.
+Get entry(): Topic queue is empty.
+Get entry(): Topic queue is empty.
+Get entry(): Topic queue is empty.
+Get entry(): Topic queue is empty.
+Get entry(): Topic queue is empty.
+Get entry(): Topic queue is empty.
+Get entry(): Topic queue is empty.
+Get entry(): Topic queue is empty.
+Get entry(): Topic queue is empty.
+Get entry(): Topic queue is empty.
+Get entry(): Topic queue is empty.
+Get entry(): Topic queue is empty.
+Get entry(): Topic queue is empty.
+Get entry(): Topic queue is empty.
+Get entry(): Topic queue is empty.
+Get entry(): Topic queue is empty.
+Subscriber thread: 151332608 is exiting...
+
+Cleanup thread: 100976384 is exiting...
+
+==22041== 
+==22041== HEAP SUMMARY:
+==22041==     in use at exit: 0 bytes in 0 blocks
+==22041==   total heap usage: 672 allocs, 672 frees, 109,107 bytes allocated
+==22041== 
+==22041== All heap blocks were freed -- no leaks are possible
+==22041== 
+==22041== For counts of detected and suppressed errors, rerun with: -v
+==22041== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

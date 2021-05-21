@@ -1,0 +1,7 @@
+put 3 "https://cdn.pixabay.com/photo/2018/03/07/19/51/animal-3206941_960_720.jpg" "friends of a goat"
+sleep 10000
+put 3 "https://cdn.pixabay.com/photo/2018/05/02/09/36/animal-3368102_960_720.jpg" "baby_goats"
+sleep 2000
+put 3 "https://cdn.pixabay.com/photo/2017/03/26/10/33/stone-goat-2175189_960_720.jpg" "Some goats"
+sleep 2000
+stop
