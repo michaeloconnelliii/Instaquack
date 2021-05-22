@@ -34,6 +34,7 @@
 	  	<li>Create executable (e.g. make will produce "server") and copy to "input" directory</li>
 		<li>Navigate to the "input" directory</li>
 		<li>./server input.txt</li>
+		</ol>
 	</li>
 	<p>The output is a dynamically-created HTML page for each subscriber thread (of the form subscriber_<thread id>) listing photo captions they recieved during runtime. Running the program multiple times will result in slightly different HTML pages for each thread. This is intentional and evidence of the program being multithreaded.</p>
 </ul>
