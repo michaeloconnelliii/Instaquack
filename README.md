@@ -19,7 +19,8 @@
 	<li>screenshots (directory)<br>Screenshots of successful compilation and successful valgrind report</li>
 	<li>Project 3 - Description.pdf<br>Original specifications outlined for the project.</li>
 	<li>Report_Collection_Project3.pdf<br>Summary/analysis of the project. Required in the project submission.</li>
-	<li>Makefile<br>Simple Makefile recipe. Note that the pthread library is used.<li>
+	<li>Makefile<br>Simple Makefile recipe. Note that the pthread library is used.</li>
+	<li>valgrind and program log.txt<br>Successful output from Valgrind while program was running. No memory leaks were found.</li>
 </ul>
 
 <h2>How to use</h2>
