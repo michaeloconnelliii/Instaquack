@@ -1,6 +1,6 @@
 <h1>InstaQuack!</h1>
 <h2>Overview</h2>
-<p>InstaQuack! is a mock social media server that provides users a way to communicate what they are doing using real time photos with short captions. The project uses the publish/subscribe model (see below) to allow data (photos) sharing between content creators (publishers) and subscribers. Publishers send their data to a broker which stores it under a given (specified by publisher) topic. Subscribers can then receive the data from the broker for the topics they are subscribed to.</p>
+<p>InstaQuack! is a mock social media server that provides users a way to communicate what they are doing using real time photos with short captions. The project uses the publish/subscribe model (see below) to allow data (photos) sharing between content creators (publishers) and subscribers. Publishers send their data to a broker which stores it under a given topic (specified by publisher). Subscribers can then receive the data from the broker for the topics they are subscribed to.</p>
 
 ![ScreenShot](/fig1.png)
 
