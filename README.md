@@ -23,11 +23,13 @@
 	<li>valgrind and program log.txt<br>Successful output from Valgrind while program was running. No memory leaks were found.</li>
 </ul>
 
+<h2>System Information</h2>
+<p>InstaQuack was run, compiled, and tested on a virtual machine (via VirtualBox Version 6.0.24) running Linux Mint 19.3 MATE</p>
+
 <h2>How to use</h2>
 <ul> 
 	<li>Makefile produces an executable, server.</li>
   	<li>To run: ./server input.txt</li>
-	<p>InstaQuack was run, compiled, and tested on a virtual machine (via VirtualBox Version 6.0.24) running Linux Mint 19.3 MATE</p>
 </ul>
 
 <h2>Publisher and Subscriber Tests</h2>
