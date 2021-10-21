@@ -47,6 +47,6 @@
 	<li>normal_test (directory)<br>Screenshots from given project input.</li>
 </ul>
 
-<h2>Aknowledgements</h2>
+<h2>Acknowledgements</h2>
 <p>This project was for CIS 415, Operating Systems at University of Oregon, Fall 2020.</p> 
 <p>Professor Allen Malony created the specifications for the project (Project 3 - Description.pdf) and Grayson Guan (the GTF for the class) created string_parser.c and string_parser.h.<p>
